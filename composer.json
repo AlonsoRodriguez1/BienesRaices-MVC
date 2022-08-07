@@ -1,0 +1,22 @@
+{
+    "name": "alonsorodriguez/bienes-raices-poo_php_inicio",
+    "description": "Crendo un proyecto con POO",
+    "type": "project",
+
+    "authors": [{
+        "name": "Alonso",
+        "email": "fabianavilesfaar@gmail.com"
+    }],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
