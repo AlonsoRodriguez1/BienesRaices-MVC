@@ -29,6 +29,8 @@ class Router {
  
         $urlActual = ($_SERVER['REQUEST_URI'] === '') ? '/' :  $_SERVER['REQUEST_URI'];
         $metodo = $_SERVER['REQUEST_METHOD'];
+
+        echo "Inutil";
         
         if($metodo === 'GET') {
             $urlActual = explode('?',$urlActual)[0];
